@@ -31,7 +31,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "Hai Connections this is terraform infrastructure developed by HARRY😍😍" > /var/www/html/index.html
+echo "Hai Connectionss this is terraform infrastructure developed by HARRY😍😍" > /var/www/html/index.html
 EOF
 tags = {
 Name = "harry"
