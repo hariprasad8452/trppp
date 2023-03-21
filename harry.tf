@@ -14,7 +14,7 @@ sudo -i
 yum install httpd -y
 systemctl start httpd
 chkconfig httpd on
-echo "🙋‍♂️🙋‍♂️🙋‍♂️Hello...! Connections this is Terraform infrastructure🏦🏨 developed👨‍💻👨‍ by HARRY😗🙃 using Jenkins Pipeline🔗 and Webhook😍😍" > /var/www/html/index.html
+echo "🙋‍♂️🙋‍♂️🙋‍♂️Hello...! Connections💁‍♂️ this is Terraform infrastructure🏦🏨 developed👨‍💻👨‍ by HARRY😗🙃 using Jenkins Pipeline🔗😍😍" > /var/www/html/index.html
 EOF
 tags = {
 Name = "harry"
