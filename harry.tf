@@ -21,7 +21,7 @@ Name = "harry"
 }
 }
 resource "aws_instance" "mine1" {
-ami = "ami-02a5fa56adb79cbe3"
+ami = "ami-05afd67c4a44cc983"
 instance_type = "t2.micro"
 vpc_security_group_ids = [aws_security_group.mine2.id]
 availability_zone = "ap-south-1b"
